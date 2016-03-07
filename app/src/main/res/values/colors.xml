@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="questionbank_toolbar">#FF0288D1</color>
+    <color name="syllabus_toolbar">#ff075E54</color>
+    <color name="syllabus_tabbar">#ff043832</color>
+    <color name="timetable_toolbar">#ff10C6DC</color>
+    <color name="timetable_tab">#ff008AA1</color>
+    <color name="tests_exams_toolbar">#ff253036</color>
+
+</resources>

@@ -1,0 +1,436 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sr.eeecompanion.fragment_syllabus_timl">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:background="#ffdddddd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="@string/timl_name"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="false"
+                        android:gravity="center" />
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/timl"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/timl1"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="EXP-1"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/timl1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/timl1"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/timl2"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="EXP-2"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/timl2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/timl2"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/timl3"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="EXP-3"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/timl3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/timl3"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/timl4"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="EXP-4"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/timl4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/timl4"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/timl5"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="EXP-5"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/timl5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/timl5"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/timl6"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="EXP-6"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/timl6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/timl6"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/timl7"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="EXP-7"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/timl7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/timl7"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/timl8"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="EXP-8"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/timl8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/timl8"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/timl9"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="EXP-9"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/timl9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/timl9"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/timl10"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="EXP-10"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/timl10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/timl10"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/timl11"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="EXP-11"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/timl11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/timl11"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

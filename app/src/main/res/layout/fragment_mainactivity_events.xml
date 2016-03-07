@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:maxLines="3"
+                android:padding="8sp"
+                android:text="College"
+                android:textColor="#666"
+                android:textSize="10dp" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+
+                    <com.balysv.materialripple.MaterialRippleLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <Button
+                            android:id="@+id/button_calenderofevents"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="#00ffffff"
+                            android:onClick="onClick"
+                            android:text="Calendar of events"
+                            android:textColor="#ff000000" />
+
+                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:maxLines="3"
+                android:padding="8sp"
+                android:text="Department"
+                android:textColor="#666"
+                android:textSize="10dp" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/eventcardview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="195dp"
+                    android:textAlignment="center">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="135dp"
+                        android:padding="4dp"
+                        android:scaleType="fitXY"
+                        android:id="@+id/imageView3"
+                        android:src="@drawable/demo" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:layout_below="@+id/imageView3"
+                        android:text="Nothing Much here right now. Coming Soon!"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ff666666" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

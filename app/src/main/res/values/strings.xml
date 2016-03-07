@@ -1,0 +1,1277 @@
+<resources>
+    <string name="app_name">DSCE EEE Companion</string>
+    <string name="main_activity">EEE Companion</string>
+    <string name="select_sem">Semester Select</string>
+    <string name="sem3">III Semester</string>
+    <string name="sem4">IV Semester</string>
+    <string name="sem5">V Semester</string>
+    <string name="sem6">VI Semester</string>
+    <string name="sem7">VII Semester</string>
+    <string name="sem8">VIII Semester</string>
+    <string name="syllabus_sem3">III Semester Syllabus</string>
+    <string name="syllabus_sem5">V Semester Syllabus</string>
+    <string name="syllabus_sem6">VI Semester Syllabus</string>
+    <string name="timetable_sem5">V Semester Time Table</string>
+    <string name="questionbank_sem3">III Semester Bank</string>
+    <string name="questionbank_sem5">V Semester Bank</string>
+    <string name="lab">Lab Theory</string>
+    <string name="nothing"></string>
+    <string name="tests_exams_header">IA and Exams Time Table</string>
+    <string name="externalexam_timetable_header">Ext Exam Time Table</string>
+    <string name="changelog1">- Added V sem Syllabus,Time table</string>
+    <string name="changelog2">- Initial Release</string>
+    <string name="changelog3">V 0.1.a  (20-Sept-2015)</string>
+    <string name="changelog4">- Added V sem External Exam Time table</string>
+    <string name="changelog5">- Added V sem Question Bank</string>
+    <string name="changelog6">- Redefined UI</string>
+    <string name="changelog7">V 0.2.a  (03-Dec-2015)</string>
+
+    <string name="disclaimer">By accessing or using any page of this app, you signify your assent to these terms and
+        conditions. EEE Dept. DSCE or SR Labs™ may revise and/or update
+        these terms and conditions at any time. Your continued usage of EEE Companion app
+        means that you accept such changes.
+        The contents of this app, including without limitation, all data, information, text,
+        graphics, links and other materials (collectively, the “Contents”), are provided by SR Labs™ or took from Open Sources, as a
+        convenience to our app users and are meant to be used for informational purposes only.
+        Except as expressly provided by EEE Dept. DSCE or SR Labs™, none of the Content may be copied,
+        reproduced, republished, downloaded, uploaded, posted, displayed, transmitted or
+        distributed in any way and nothing on the app shall be construed to confer any license
+        under any of EEE Dept. DSCE or SR Labs™ intellectual property rights, whether by estoppel,
+        implication or otherwise. Please contact EEE Dept. DSCE or SR Labs™ if you have any questions about
+        obtaining such licenses. All contents of this app are protected by copyright. All other
+        rights are reserved. Users are not permitted to modify, distribute, publish, transmit, or
+        create derivative works of any material found on this app for any public or commercial
+        purpose.
+        Unless otherwise indicated, the trademarks, logos and service marks displayed on this app
+        are the property of EEE Dept. DSCE or SR Labs™. Users are not permitted to use these marks without
+        the prior written consent of EEE Dept. DSCE or SR Labs™ or of a third party owner of the mark, if
+        applicable.</string>
+    <string name="eula">By downloading any application from SR Labs™ or Google™ (here after referered to as “The Company”), installing or using this application or any portion thereof (“Application”), you agree to the following terms and conditions (the “Terms and Conditions”).
+</string>
+        <string name="eula1">
+1. USE OF APPLICATION
+a. The Company grants you the non-exclusive, non-transferable, limited right and license to install and use this Application solely and exclusively for your personal use.
+b. You may not use the Application in any manner that could damage, disable, overburden, or impair the Application (or servers or networks connected to the Application), nor may you use the Application in any manner that could interfere with any other party’s use and enjoyment of the Application (or servers or networks connected to the Application).
+c. You agree that you are solely responsible for (and that The Company has no responsibility to you or to any third party for) your use of the Application, any breach of your obligations under the Terms and Conditions, and for the consequences (including any loss or damage which The Company may suffer) of any such breach.
+</string>
+            <string name="eula2">
+2. PROPRIETARY RIGHTS
+You acknowledge that (a) the Application contains proprietary and confidential information that is protected by applicable intellectual property and other laws, and (b) The Company and/or third parties own all right, title and interest in and to the Application and content, excluding content provided by you, that may be presented or accessed through the Application, including without limitation all Intellectual Property Rights therein and thereto. “Intellectual Property Rights” means any and all rights existing from time to time under patent law, copyright law, trade secret law, trademark law, unfair competition law, and any and all other proprietary rights, and any and all applications, renewals, extensions and restorations thereof, now or hereafter in force and effect worldwide. You agree that you will not, and will not allow any third party to, (i) copy, sell, license, distribute, transfer, modify, adapt, translate, prepare derivative works from, decompile, reverse engineer, disassemble or otherwise attempt to derive source code from the Application or content that may be presented or accessed through the Application for any purpose, unless otherwise permitted, (ii) take any action to circumvent or defeat the security or content usage rules provided, deployed or enforced by any functionality (including without limitation digital rights management functionality) contained in the Application, (iii) use the Application to access, copy, transfer, transcode or retransmit content in violation of any law or third party rights, or (iv) remove, obscure, or alter The Company’s or any third partyâ€™s copyright notices, trademarks, or other proprietary rights notices affixed to or contained within or accessed in conjunction with or through the Application.
+</string>
+                <string name="eula3">
+3. THE COMPANY TERMS OF SERVICE AND PRIVACY POLICY
+a. The Company’s Privacy Policy (located at http://www.google.com/privacypolicy.html) explains how The Company treats your information and protects your privacy when you use the Application. You agree to the use of your data in accordance with The Company’s privacy policies.
+b. The Application may contain features that are used in conjunction with The Company’s search and other services. Accordingly, your use of such features of the Application is also governed by The Company’s Terms of Service located at http://www.google.com/terms_of_service.html, The Company’s Privacy Policy located at http://www.google.com/privacypolicy.html, as well as any applicable The Company Service-specific Terms of Service and Privacy Policy, which may be updated from time to time and without notice.
+    </string>
+                    <string name="eula4">
+4. U.S. GOVERNMENT RESTRICTED RIGHTS
+This Application, related materials and documentation have been developed entirely with private funds. If the user of the Application is an agency, department, employee, or other entity of the United States Government, the use, duplication, reproduction, release, modification, disclosure, or transfer of the Application, including technical data or manuals, is restricted by the terms, conditions and covenants contained in these Terms and Conditions. In accordance with Federal Acquisition Regulation 12.212 for civilian agencies and Defense Federal Acquisition Regulation Supplement 227.7202 for military agencies, use of the Application is further restricted by these Terms and Conditions.
+    </string>
+                        <string name="eula5">
+5. EXPORT RESTRICTIONS
+The Application may be subject to export controls or restrictions by the United States or other countries or territories. You agree to comply with all applicable U.S. and international export laws and regulations. These laws include restrictions on destinations, end users, and end use.
+  </string>
+                            <string name="eula6">
+6. TERMINATION
+These Terms and Conditions will continue to apply until terminated by either you or The Company as set forth below. You may terminate these Terms and Conditions at any time by permanently deleting the Application from your mobile device in its entirety. Your rights automatically and immediately terminate without notice from The Company or any Third Party if you fail to comply with any provision of these Terms and Conditions. In such event, you must immediately delete the Application.
+    </string>
+                                <string name="eula7">
+7. INDEMNITY
+To the maximum extent permitted by law, you agree to defend, indemnify and hold harmless The Company, its affiliates and their respective directors, officers, employees and agents from and against any and all claims, actions, suits or proceedings, as well as any and all losses, liabilities, damages, costs and expenses (including reasonable attorneys fees) arising out of or accruing from your use of the Application, including your downloading, installation, or use of the Application, or your violation of these Terms and Conditions.
+    </string>
+                                    <string name="eula8">
+8. DISCLAIMER OF WARRANTIES
+a. YOU EXPRESSLY UNDERSTAND AND AGREE THAT YOUR USE OF THE APPLICATION IS AT YOUR SOLE DISCRETION AND RISK AND THAT THE APPLICATION IS PROVIDED AS IS AND AS AVAILABLE WITHOUT WARRANTY OF ANY KIND.
+b. YOU ARE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR MOBILE DEVICE, OR OTHER DEVICE, OR LOSS OF DATA THAT RESULTS FROM SUCH USE.
+c. THE COMPANY FURTHER EXPRESSLY DISCLAIMS ALL WARRANTIES AND CONDITIONS OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO THE IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, WITH RESPECT TO THE APPLICATION.
+d. THE APPLICATION IS NOT INTENDED FOR USE IN THE OPERATION OF NUCLEAR FACILITIES, LIFE SUPPORT SYSTEMS, EMERGENCY COMMUNICATIONS, AIRCRAFT NAVIGATION OR COMMUNICATION SYSTEMS, AIR TRAFFIC CONTROL SYSTEMS, OR ANY OTHER ACTIVITIES IN WHICH THE FAILURE OF THE APPLICATION COULD LEAD TO DEATH, PERSONAL INJURY, OR SEVERE PHYSICAL OR ENVIRONMENTAL DAMAGE.
+    </string>
+                                        <string name="eula9">
+9. LIMITATION OF LIABILITY
+YOU EXPRESSLY UNDERSTAND AND AGREE THAT THE COMPANY, ITS SUBSIDIARIES AND AFFILIATES, AND ITS LICENSORS ARE NOT LIABLE TO YOU UNDER ANY THEORY OF LIABILITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL CONSEQUENTIAL OR EXEMPLARY DAMAGES THAT MAY BE INCURRED BY YOU THROUGH YOUR USE OF THE APPLICATION, INCLUDING ANY LOSS OF DATA OR DAMAGE TO YOUR MOBILE DEVICE, WHETHER OR NOT THE COMPANY OR ITS REPRESENTATIVES HAVE BEEN ADVISED OF OR SHOULD HAVE BEEN AWARE OF THE POSSIBILITY OF ANY SUCH LOSSES ARISING.
+   </string>
+
+<string name="eula10">
+10. MISCELLANEOUS
+a. These Terms and Conditions constitute the entire Agreement between you and The Company relating to the Application and govern your use of the Application, and completely replace any prior or contemporaneous agreements between you and The Company regarding the Application.
+b. The failure of The Company to exercise or enforce any right or provision of these Terms and Conditions does not constitute a waiver of such right or provision, which will still be available to The Company.
+c. If any court of law, having the jurisdiction to decide on this matter, rules that any provision of these Terms and Conditions is invalid, then that provision will be removed from the Terms and Conditions without affecting the rest of the Terms and Conditions. The remaining provisions of these Terms and Conditions will continue to be valid and enforceable.
+d. The rights granted in these Terms and Conditions may not be assigned or transferred by either you or The Company without the prior written approval of the other party. Neither you nor The Company are permitted to delegate their responsibilities or obligations under these Terms and Conditions without the prior written approval of the other party.
+e. These Terms and Conditions and your relationship with The Company under these Terms and Conditions will be governed by the laws of the State of California without regard to its conflict of laws provisions. You and The Company agree to submit to the exclusive jurisdiction of the courts located within the county of Santa Clara, California to resolve any legal matter arising from these Terms and Conditions. Notwithstanding this, you agree that The Company will still be allowed to apply for injunctive remedies (or an equivalent type of urgent legal relief) in any jurisdiction.
+
+    </string>
+
+<string name="me">
+Subject Code: 10AL51 / 10AL61
+IA Marks: 25
+Hrs/ Week: 04 Exam Hours: 03
+Total Hrs: 52 Exam Marks: 100
+
+</string>
+<string name="me1">MANAGEMENT (PART – A)
+</string>
+<string name="me2">
+
+MANAGEMENT: Introduction - Meaning - nature and characteristics of Management, Scope and functional
+        areas of Management - Management as a Science, Art or Profession Management and Administration
+        - Roles of Management, Levels of Management, Development of Management Thought-Early Management
+        Approaches-Modern Management Approaches. 7 Hours
+</string>
+<string name="me3">
+
+PLANNING: Nature, importance and purpose of planning process - Objectives - Types of plans (Meaning
+        only) - Decision making – Importance of planning - steps in planning and planning premises -
+        Hierarchy of plans. 6 Hours
+</string>
+<string name="me4">
+
+ORGANISING AND STAFFING: Nature and purpose of organization - Principles of organization - Types of
+        organization - Departmentation - Committees – Centralisation Vs Decentralisation of authority
+        and responsibility - Span of control - MBO and MBE (Meaning only) Nature and importance of
+        Staffing - Process of Selection and Recruitment (in brief). 7 Hours
+</string>
+<string name="me5">
+
+DIRECTING and CONTROLLING: Meaning and nature of directing - Leadership styles, Motivation Theories,
+        Communication - Meaning and importance – Coordination, meaning and importance and Techniques
+        of Co -ordination. Meaning and steps in controlling - Essentials of a sound control system -
+        Methods of establishing control.6 Hours
+</string>
+<string name="me6">ENTREPRENEURSHIP (PART – B )
+</string>
+<string name="me7">
+
+ENTREPRENEUR: Meaning of Entrepreneur; Evolution of the Concept, Functions of an Entrepreneur, Types
+        of Entrepreneur, Intrapreneur – an emerging Class. Concept of Entrepreneurship - Evolution of
+        Entrepreneurship, Development of Entrepreneurship; Stages in entrepreneurial process; Role of
+        entrepreneurs in Economic Development; Entrepreneurship in India; Entrepreneurship – its
+        Barriers. 6 Hours
+</string>
+<string name="me8">
+
+SMALL SCALE INDUSTRY: Definition; Characteristics; Need and rationale: Objectives; Scope; role of SSI
+        in Economic Development. Advantages of SSI Steps to start an SSI - Government policy towards
+        SSI; Different Policies of S.S.I.; Government Support for S.S.I. during 5 year plans, Impact
+        of Liberalization, Privatization, Globalization on S.S.I., Effect of WTO/GATT Supporting
+        Agencies of Government for S.S.I Meaning; Nature of Support; Objectives; Functions; Types of
+        Help; Ancillary Industry and Tiny Industry (Definition only). 7 Hours
+</string>
+<string name="me9">
+
+INSTITUTIONAL SUPPORT: Different Schemes; TECKSOK; KIADB; KSSIDC; KSIMC; DIC Single Window Agency:
+        SISI; NSIC; SIDBI; KSFC. 6 Hours
+</string>
+<string name="me10">
+
+PREPARATION OF PROJECT: Meaning of Project; Project Identification; Project Selection; Project
+        Report; Need and Significance of Report; Contents; formulation; Guidelines by Planning
+        Commission for Project report; Network Analysis; Errors of Project Report; Project Appraisal.
+        Identification of Business Opportunities - Market Feasibility Study; Technical Feasibility
+        Study; Financial Feasibility Study and Social Feasibility Study. 7 Hours
+</string>
+<string name="me11">
+
+1. Principles of Management - P. C. Tripathi, P. N. Reddy; Tata McGraw Hill, 4th Edition, 2010.
+2. Dynamics of Entrepreneurial Development and Management – Vasant Desai Himalaya Publishing House.
+3. Entrepreneurship Development - Small Business Enterprises - Poornima M Charantimath - Pearson
+        Education – 2006.
+</string>
+<string name="me12">
+
+1. Management Fundamentals - Concepts, Application, Skill Development Robert Lusier – Thomson.
+2. Entrepreneurship Development - S S Khanka - S Chand and Co.
+3. Management - Stephen Robbins - Pearson Education /PHI -17th Edition, 2003.
+    </string>
+    <string name="me_name">MANAGEMENT AND ENTREPRENEURSHIP</string>
+    <string name="ss">
+
+
+Subject Code: 10EE52
+IA Marks: 25
+Hrs. /Week: 04 Exam Hrs. 03
+Total Hrs. 52 Exam Marks: 100
+    </string>
+<string name="ss1">
+PART - A
+</string>
+    <string name="ss2">
+
+INTRODUCTION-Definitions of signals and a system, classification of signals, basic operations on signals, elementary signals viewed as interconnections of operations, properties of systems. 10 Hours
+</string>
+    <string name="ss3">
+
+
+TIME – DOMAIN REPRESENTATIONS FOR LTI SYSTEMS-Convolution, impulse response, properties, solution of differential and difference equations, block diagram representation. 10 Hours
+</string>
+    <string name="ss4">
+
+
+FOURIER REPRESENTATION OF PERIODIC SIGNALS-Introduction, Fourier representation of continuous-time periodic signals (FS), properties of continuous-time Fourier series (excluding derivation of defining equations for CTFS), Fourier representation of discrete-time periodic signals, properties of discrete-time Fourier series (DTFS). 6 Hours
+</string>
+    <string name="ss5">
+PART - B</string>
+<string name="ss6">
+
+
+THE CONTINUOUS-TIME FOURIER TRANSFORM-Representation of a periodic signals: continuous-time Fourier transform (FT), Properties of continuous-time Fourier transform. Application; frequency response of LTI systems, Solutions of differential equations. 7 Hours
+
+ </string>
+<string name="ss7">
+
+
+THE DISCRETE-TIME FOURIER TRANSFORM-Representations of periodic signals: The discretetime
+Fourier transform (DTFT), Properties of DTFT. Application; frequency response of LTI systems, Solutions of differential equations. 7 Hours</string>
+<string name="ss8">
+
+
+Z- TRANSFORMS-Introduction, Z-transform, properties of ROC, properties of Z-transforms, inversion of Z-transform methods - power series and partial expansion, Transforms analysis of LTI systems, transfer function, stability and causality, unilateral Z-transform and its application to solve difference equations.12 Hours
+</string>
+    <string name="ss9">
+
+
+1. Signals and Systems- Simon Haykin and Barry Van Veen, John Wiley and Sons, 2nd Edition 2008.
+2. Fundamentals of Signals and Systems - Michel J Roberts, TMH, 2nd Edition,2010.</string>
+<string name="ss10">
+
+
+1. Signals and Systems, Alan V Oppenheim, Alan S. Willsky and S. Hamid Nawab,PHI, 2nd edition, 2009.
+2. Signals and Systems, H P Hsu and others, Schaums Outline Series, TMH,2nd Edition,2008.
+    </string>
+    <string name="ss_name">SIGNALS AND SYSTEMS</string>
+    <string name="td">
+
+
+Subject Code: 10EE53
+IA Marks: 25
+Hrs. /Week: 04 Exam Hrs. 03
+Total Hrs. 52 Exam Marks: 100</string>
+<string name="td1">
+PART - A</string>
+<string name="td2">
+
+
+TYPICAL TRANSMISSION and DISTRIBUTION SYSTEMS SCHEME-General layout of power system, Standard voltages for transmission, advantages of high voltage transmission. Transmission line efficiency and line drop. Feeders, distributors and service mains. 5 Hours
+</string>
+    <string name="td3">
+
+
+OVERHEAD TRANSMISSION LINES-Types of supporting structures and line conductors used. Sag calculation- supports at same level and at different levels. Effect of wind and ice, Sag at erection, Stringing chart and sag templates. Line vibrators. 5 Hours
+</string>
+    <string name="td4">
+
+
+INSULATORS- Introduction, materials used, types, potential distribution over a string of suspension insulators. String efficiency and methods of increasing strings efficiency, grading rings and arcing horns. Testing of insulators. 6 Hours
+</string>
+    <string name="td5">
+
+
+(A)CORONA- Phenomena, disruptive and visual critical voltages, corona power loss. Advantages and disadvantages of corona.4 Hours
+(B)UNDERGROUND CABLES- Types, material used, insulation resistance, thermal rating of cables, charging current, grading of cables, capacitance grading and inter sheath grading, testing of cables. 6 Hours
+</string>
+    <string name="td6">
+Part - B
+</string>
+    <string name="td7">
+
+
+Line parameters: calculation of inductance of single phase line, 3phase lines with equilateral spacing, unsymmetrical spacing, double circuit and transposed lines. Inductance of composite conductor lines. Capacitance- of single-phase line, 3phase lines with equilateral spacing, unsymmetrical spacing, double circuit and transposed lines. Capacitance of composite conductor lines. 12 Hours
+</string>
+    <string name="td8">
+
+
+Performance of power transmission lines-Short transmission lines, medium transmission lines- nominal T, end condenser and π models, long transmission lines, ABCD constants of transmission lines, Ferranti effect, line regulation. 8 Hours
+</string>
+    <string name="td9">
+
+
+Distribution- Requirements of power distribution, radial and ring main systems, ac and dc distribution: calculation for concentrated loads and uniform loading. 6 Hours</string>
+<string name="td10">
+
+1. A Course in Electrical Power- Soni Gupta and Bhatnaagar, Dhanpat Rai and Sons.
+2. Electrical Power Systems- C. L. Wadhwa, New Age International,5th Edition,2009.</string>
+<string name="td11">
+
+
+1. Elements of Power System Analysis- W.D. Stevenson, TMH,4th Edition
+2. Electric power generation Transmission and Distribution- S. M. Singh, PHI,2nd Edition, 2009.
+3. Electrical Power- Dr. S. L. Uppal, Khanna Publications
+    </string>
+    <string name="td_name">TRANSMISSION AND DISTRIBUTION</string>
+    <string name="dcm">
+
+
+Subject Code: 10EE54
+IA Marks: 25
+Hrs. /Week: 04 Exam Hrs. 03
+Total Hrs. 52 Exam Marks: 100
+</string>
+    <string name="dcm1">
+PART - A</string>
+<string name="dcm2">
+
+
+DC GENERATOR-Review of basics of DC machines, classification of DC generator, types of armature winding, EMF equation, no-load characteristic, armature reaction, load characteristics. Commutation, types of Commutation, commutation difficulties, interpoles, compensating winding and equalizer rings (only qualitative treatment). 8 Hours
+</string>
+    <string name="dcm3">
+
+
+DC Motors- (a) Classification, Back EMF and its significance, Torque equation, Characteristics of shunt, series and compound motors, speed control of shunt, series and compound motors.Application of motors. DC motor starters (b) Special DC motors- permanent magnet motors,brushless DC motors.Applications.8 Hours
+</string>
+    <string name="dcm4">
+
+
+LOSSES AND EFFICIENCY- Losses in DC machines, power flow diagram, efficiency, condition for maximum efficiency.
+TESTING OF DC MACHINES- Direct and indirect methods of testing of DC machines-Brake test, Swinburn’s test, Hopkinson’s test, Retardation test, Field’s test, merits and demerits of tests. 10 Hours
+</string>
+    <string name="dcm5">
+PART - B</string>
+<string name="dcm6">
+
+
+SYNCHRONOUS MACHINES- Basic principle of operation, construction of salient and non-salient pole synchronous machines, generated EMF, effect of distribution and chording of winding, harmonics-causes, reduction and elimination. Armature reaction, synchronous reactance, leakage reactance, phasor diagram of non salient type alternator. 5 Hours
+</string>
+    <string name="dcm7">
+
+
+VOLTAGE REGULATION: Voltage regulation by EMF, MMF, ZPF and ASA method.Schort circuit ratio and its importance.Two reaction theory-direct and quadrature axis reactances,phasor diagram.Slip test and regulation. 8 Hours
+</string>
+    <string name="dcm8">
+
+
+Synchronizing to infinite bus bars, parallel operation of alternators. Operating characteristics, power angle characteristics excluding armature resistance, operation for fixed input and variable excitation, power flow equations including armature resistance, capability curves of synchronous generators. 6 Hours
+</string>
+    <string name="dcm9">
+
+
+SYNCHRONOUS MOTOR: Principle of operation, phasor diagrams, torque and torque angle, Blondal diagram, effect of change in load, effect of change in excitation, V and inverted V curves. Synchronous condensor, hunting and damping. Methods of starting synchronous motors. 7 Hours
+</string>
+    <string name="dcm10">
+
+
+1. Electrical machinery, P.S Bhimbra, Khanna Publishers
+2. Electrical machines, DP Kothari, I.J.Nagarath, TMH, 4th edition, 2010.
+3. Electric Machines, Mulukuntla S.Sarma, Mukesh K.Pathak, Cengage Learning, First edition,2009.</string>
+<string name="dcm11">
+
+
+1. Performance and Design of Alternating Current machines, M. G. Say, CBS publishers,3rd Edition,2002.
+2. The Performance and Design of DC machines A.E Clayton and N.N.Hancock CBS Publication,3rd Edition,2004.
+3. Electrical Machines,Ashfaq Hussain, Dhanpat Rai Publications.
+    </string>
+    <string name="dcm_name">DC MACHINES AND SYNCHRONOUS MACHINES</string>
+    <string name="mct">
+
+
+Subject Code: 10EE55
+IA Marks: 25
+Hrs. /Week: 04 Exam Hrs. 03
+Total Hrs. 52 Exam Marks: 100
+</string>
+    <string name="mct1">
+PART - A
+</string>
+    <string name="mct2">
+
+
+STATE VARIABLE ANALYSIS AND DESIGN: Introduction, concept of state, state variables and state model, state modeling of linear systems, linearization of state equations. State space representation using physical variables, phase variables and canonical variables. 10 Hours
+</string>
+    <string name="mct3">
+
+Derivation of transfer function from state model, diagolization, Eigen values, Eigen vectors, generalized Eigen vectors. 6 Hours
+</string>
+    <string name="mct4">
+
+
+Solution of state equation, state transition matrix and its properties, computation using Laplace transformation, power series method, Cayley-Hamilton method, concept of controllability and observability, methods of determining the same. 10 Hours
+</string>
+    <string name="mct5">
+PART - B
+</string>
+    <string name="mct6">
+
+
+POLE PLACEMENT TECHNIQUES: stability improvements by state feedback, necessary and sufficient conditions for arbitrary pole placement, state regulator design, and design of state observer, Controllers- P, PI, PID. 10 Hours
+</string>
+    <string name="mct7">
+
+
+Non-linear systems: Introduction, behavior of non-linear system, common physical non linearity-saturation, friction, backlash, dead zone, relay, multi variable non-linearity.3 Hours
+</string>
+    <string name="mct8">
+
+
+Phase plane method, singular points, stability of nonlinear system, limit cycles, construction of phase trajectories.7 Hours</string>
+<string name="mct9">
+
+
+Liapunov stability criteria, Liapunov functions, direct method of Liapunov and the linear system, Hurwitz criterion and Liapunov’s direct method, construction of Liapunov functions for nonlinear system by Krasvskii’s method. 6 Hours
+</string>
+    <string name="mct10">
+
+
+1. Digital control and state variable methods, M. Gopal , 3rd Edition, TMH ,2008
+2. Control system Engineering, I. J. Nagarath and M. Gopal, New Age International (P) Ltd, 3rd edition.</string>
+<string name="mct11">
+
+
+1. State Space Analysis of Control Systems, Katsuhiko Ogata -PHI
+2. Automatic Control Systems, Benjamin C. Kuo and Farid Golnaraghi, 8th edition, John Wiley and Sons 2009.
+3. Modern Control Engineering, Katsuhiko Ogata, PHI,5th Edition, 2010
+4. Modern Control Engineering, D. Roy Choudary,PHI, 4th Reprint,2009.
+5. Modern control systems, Dorf and Bishop- Pearson education, 11th Edition 2008
+    </string>
+    <string name="mct_name">MODERN CONTROL THEORY</string>
+    <string name="lica">
+
+
+Subject Code: 10EE56
+IA Marks: 25
+Hrs. /Week: 04 Exam Hrs. 03
+Total Hrs. 52 Exam Marks: 100
+
+ </string>
+<string name="lica1">
+PART - A</string>
+<string name="lica2">
+
+
+OP-AMPS AS AC AMPLIFIER: Capacitor coupled voltage follower, high Zin capacitor coupled voltage follower, capacitor coupled non-inverting amplifier, high Zin capacitor coupled non-inverting amplifier, capacitor coupled inverting amplifier, setting upper cut off frequency, capacitor coupled difference amplifier, and use of single polarity supply.6 Hours
+</string>
+    <string name="lica3">
+
+
+OP-AMPS FREQUENCY RESPONSE AND COMPENSATION: Op amp circuits stability, frequency and phase response, frequency compensating methods ,manufacturer’s recommended compensation, opamp circuit band width, slew rate effects,stray capacitance effects, load capacitance effects, Zin mode compensation, circuit stability precautions.7 Hours
+</string>
+    <string name="lica4">
+
+SIGNAL PROCESSING CIRCUITS:Precision half wave and full wave rectifiers, limiting circuits, clamping circuits, peak detectors, sample andhold circuit. DAC and ADC (Flash and successive approximations) 7 Hours
+</string>
+    <string name="lica5">
+
+
+OPAMPS AND NONLINEAR CIRCUITS: Op-amps in switching circuits, zero crossing detectors, inverting Schmitt trigger circuits, non-inverting Schmitt circuits, astable multivibrator, and monostable multivibrator. 6 Hours
+</string>
+    <string name="lica6">
+PART - B</string>
+<string name="lica7">
+
+
+SIGNAL GENERATOR: Triangular/rectangular wave generator, waveform generator design, phase shift oscillator, oscillator amplitude stabilization, Wein bridge oscillator, signal generators, output controllers. 7 Hours
+</string>
+    <string name="lica8">
+
+
+ACTIVE FILTERS: First and second order high pass and low pass filters, band pass filter, band stop filter. 7 Hours</string>
+<string name="lica9">
+
+
+SPECIALIZED IC APPLICATIONS:Universal active filter, switched capacitor filter, phase locked loops, power amplifiers. 6 Hours</string>
+<string name="lica10">
+
+
+DC VOLTAGE REGULATORS: Voltage regulators basics, voltage follower regulator, adjustable output regulator, precision voltage regulators, and integrated circuit voltage regulators. 6 Hours
+</string>
+    <string name="lica11">
+
+
+1. Operational amplifiers and linear IC’s,David A Bell, Oxford University Press, 2010. 2. Operational amplifiers and linear IC’s, Ramakanth A Gayakwad, PHI, 4th edition,2009.
+3. Linear integrated circuits,S.P.Bali,TMH,2009.</string>
+<string name="lica12">
+
+
+1. Op Amps and Linear Integrated Circuits-Concepts and Applications,James M.Fiore,Cengage Learing,2009.
+2. Op Amps, Design, Applications and Trouble Shooting,Elsevier,2nd Edition.
+3. Operational amplifiers and linear IC’s,Stanley William D, - 4th edition, Pearson Education.
+4. Linear Integrated Circuits- Analysis,Design and Applications,B.Somanathan Nair, Wiley India, First,Edition, 2009.
+    </string>
+    <string name="lica_name">LINEAR IC’S AND APPLICATIONS</string>
+    <string name="csml">
+
+
+Subject Code: 10EEL57
+I.A. Marks: 25
+Hours/Week: 03 Exam Hours: 03
+Total Hours: 42 Exam Marks: 50
+
+ </string>
+<string name="csml1">
+ Measurement of low resistance using Kelvin’s double bridge</string>.
+<string name="csml2">
+ Measurement of cable insulation and earth resistance using Meggar</string>
+<string name="csml3">
+ Measurement of inductance using Maxwell Inductance-Capacitance bridge and determination of Qfactor</string>
+<string name="csml4">
+ Measurement of capacitance using De-Sauty’s bridge and determination of dissipation factor.</string>
+<string name="csml5">
+ Measurement of active and reactive power in balanced 3-phase circuit using two-watt meter method.</string>
+<string name="csml6">
+ Adjustment and calibration of 1-phase energy meter</string>
+<string name="csml7">
+ Determination of ratio and phase angle error in CT.</string>
+<string name="csml8">
+a) Inverting, non-inverting and scale changing of signals using op -amps
+b) RC phase shift oscillator using op amps (Both using simulation package)</string>
+<string name="csml9">
+ RC coupled amplifier-frequency response for variation of bias and coupling using simulation package</string>
+<string name="csml10">
+ Rectifier circuits-Bridge rectifier, diode clipping and clamping circuits using simulation package.</string>
+<string name="csml11">
+ Schmitt –trigger- inverting and non-inverting.</string>
+<string name="csml12">
+Signal generator- triangular, saw tooth and rectangular wave generation</string>
+<string name="csml13">
+ All experiments, except 5,6 and 7, are to be carried out by using components and verify the
+result by using a simulation package.
+    </string>
+    <string name="csml_name">MEASUREMENTS AND CIRCUIT SIMULATION LABORATORY</string>
+    <string name="timl">
+
+
+Subject Code: 10EEL58
+I.A. Marks: 25
+Hours/Week: 03 Exam Hours: 03
+Total Hours: 42 Exam Marks: 50</string>
+<string name="timl1">
+ (a)Predetermination of efficiency and regulation by Open Circuit and Short circuit tests on single - phase transformer.
+(b)Calculation of parameters of equivalent circuit from the readings of the tests and determination of efficiency and regulation from the equivalent circuit to correlate results obtainedearlier.
+</string>
+    <string name="timl2">
+Sumpner’s test on similar transformers and determination of combined and individual transformer efficiency.</string>
+<string name="timl3">
+Parallel operation of two dissimilar (different kVA) single-phase transformers and determination of load sharing and analytical verification given the Open Circuit and Short circuit tests details.
+</string>
+    <string name="timl4">
+Polarity test and connection of 3 single-phase transformers in star – delta and determination of efficiency and regulation under balanced resistive load.</string>
+<string name="timl5">
+ Scott connection with balanced and unbalanced resistive loads.</string>
+<string name="timl6">
+ Load test on 3-phase induction motor- and plot of Torque versus speed, output hp versus efficiency, power factor and slip.</string>
+<string name="timl7">
+Predetermination of performance of 3-phase induction Motor from the Circle diagram.</string>
+<string name="timl8">
+(a)Determination of parameters of the equivalent circuit of a 3-phase Induction Motor by conducting NO load and Blocked rotor tests.
+(b)Determination of performance quantities of the induction motor from the equivalent circuit to correlate the results obtained from the load test or circle diagram.</string>
+<string name="timl9">
+ Speed control of 3-phase induction motor by varying rotor resistance.</string>
+<string name="timl10">
+ Load test on- induction generator.</string>
+<string name="timl11">
+ Load test on single- phase induction motor.
+    </string>
+    <string name="timl_name">TRANSFORMERS AND INDUCTION MACHINES LABORATORY</string>
+
+    <string name="csl_name">  CONTROL SYSTEMS LABORATORY</string>
+    <string name="csl">
+    Subject Code: 10EEL68
+    I.A. Marks: 25
+    Hours/Week: 03 Exam Hours: 03
+    Total Hours: 42 Exam Marks: 50</string>
+    <string name="csl1">
+    a) Simulation of a typical second order system and determination of step response and evaluation of time- domain specifications 
+    b) Evaluation of the effect of additional poles and zeroes on time response of second order system
+    c) Evaluation of effect of pole location on stability
+    d) Effect of loop gain of a negative feedback system on stability</string>
+    <string name="csl2">
+    (a) To design a passive RC lead compensating network for the given specifications, viz., the maximum  phase lead and the frequency at which it occurs and to obtain its frequency response.
+    (b) To determine experimentally the transfer function of the lead compensating network.</string>
+    <string name="csl3">
+    (a) To design RC lag compensating network for the given specifications., viz., the maximum phase lag and the frequency at which it occurs, and to obtain its frequency response.
+    (b) To determine experimentally the transfer function of the lag compensating network.</string>
+    <string name="csl4">
+     Experiment to draw the frequency response characteristic of a given lag- lead compensating network.</string>
+    <string name="csl5">
+     To study the effect of P, PI, PD and PID controller on the step response of a feedback control system (using control engineering trainer/process control simulator). Verify the same by simulation.
+    </string>
+    <string name="csl6">
+    a) Experiment to draw the speed – torque characteristic of a two - phase A.C. servomotor.
+    b) Experiment to draw speed torque characteristic of a D.C. servomotor.</string>
+    <string name="csl7">
+    To determine experimentally the frequency response of a second -order system and evaluation of frequency domain specifications.</string>
+    <string name="csl8">
+    a) Simulate a D. C. position control system and obtain its step response
+    b) To verify the effect of the input wave form, loop gain system type on steady state errors.
+    c) To perform a trade-off study for lead compensation
+    d) To design a PI controller and study its effect on steady state error</string>
+    <string name="csl9">
+    a) To examine the relationships between open-loop frequency response and stability , open loop frequency and closed loop transient response
+    b) To study the effect of addition closed loop poles and zeroes on the closed loop transient response</string>
+    <string name="csl10">
+    a) Effect of open loop and zeroes on root locus contour
+    b) To estimate the effect of open loop gain on the transient response of closed loop system by using Root locus
+    c) Comparative study of Bode, Nyquist and Root locus with respect to Stability.</string>
+    <string name="csl11">
+    Experiment to draw to syncro pair characteristics.</string>
+
+    <string name="dcml_name">DC MACHINES AND SYNCHRONOUS MACHINES LABORATORY</string>
+
+   <string name="dcml"> Subject Code: 10EEL67
+    I.A. Marks: 25
+    Hours/Week: 03 Exam Hours: 03
+    Total Hours: 42 Exam Marks: 50</string>
+
+    <string name="dcml1">Load characteristics of a D.C. shunt and compound generator - i) Short shunt-Cumulative and Differential (ii) Long shunt-Cumulative and Differential.</string>
+
+    <string name="dcml2"> Load test on a DC motor- determination of speed-torque and HP-efficiency characteristics.</string>
+
+    <string name="dcml3">  Swinburne’s Test.</string>
+
+    <string name="dcml4"> Hopkinson’s Test.</string>
+
+    <string name="dcml5">Field’s test on series motors.</string>
+
+    <string name="dcml6"> Retardation test- electrical braking method.</string>
+
+    <string name="dcml7"> Speed control of DC motor by armature voltage control and flux control.</string>
+
+    <string name="dcml8"> Ward Leonard method of speed control of D.C. motor.</string>
+
+    <string name="dcml9">  Voltage regulation of an alternator by EMF and MMF method.</string>
+
+    <string name="dcml10"> Voltage regulation of an alternator by ZPF method.</string>
+
+    <string name="dcml11">  Slip test and determination of regulation.</string>
+
+    <string name="dcml12"> Performance of synchronous generator connected to infinite bus, under constant power and variable excitation and vice - versa.</string>
+
+    <string name="dcml13"> V and Inverted V curves of a synchronous motor.</string>
+
+    <string name="dcml14"> Measurement of X1, X2 and Xo of a Synchronous generator and calculation of currents for an LG,LL or LLG fault.</string>
+
+
+
+    <string name="es_name">EMBEDDED SYSTEMS</string>
+    <string name="es">
+    Subject Code: 10EE665
+    IA Marks: 25
+    Hrs. /Week: 04 Exam Hrs. 03
+    Total Hrs. 52 Exam Marks: 100</string>
+    <string name="es1">
+    PART - A</string>
+    <string name="es2">
+
+
+    CONCEPT OF EMBEDDED SYSTEM DESIGN: Components, classification, skills required.Embedded Micro controller cores: Architecture of 6808 and 6811.Embedded Memories ROM variants, RAM.Applications of embedded system: Examples of Embedded systems SOC for cellless bar code scanner. 10 Hours
+    </string>
+        <string name="es3">
+
+
+    TECHNOLOGICAL ASPECTS OF EMBEDDED SYSTEM: Interfacing between analog and digital blocks, Signal conditioning, digital signal processing, DAC and ADC interfacing, Sample and hold, multiplexer interface Internal ADC interfacing (excluding 6805 and 6812), Data Acquisition System and Signal conditioning using DSP. 10 Hours
+    </string>
+        <string name="es4">
+
+
+    DESIGN TRADE OFFS DUE TO PROCESS INCOMPATIBILITY, THERMAL CONSIDERATIONS: Issues in embedded system design. Design challenge, design technology, trade offs. Thermal considerations. 6Hours
+    </string>
+        <string name="es5">
+    PART - B
+    </string>
+        <string name="es6">
+
+    Software aspects of Embedded Systems, real time programming Languages, operating systems. Programming concepts and embedded programming in C.Round Robin, Round Robin with interrupts, function queue-scheduling architecture, Real time OS architecture, selecting architecture. Introduction to RTOS. 12 Hours
+    </string>
+        <string name="es7">
+
+
+    Subsystem interfacing with external systems user interfacing, Serial I/O devices, Parallel port interfaces: Input switches, Key boards and Memory interfacing. 
+    Case study: Embedded velocity PID controller, PI controller with a PWM actuator. 14Hours
+    </string>
+        <string name="es8">
+
+    1. Embedded Microcomputer systems: Real time interfacing- Valvano, J.W, Cengage Learning,2nd Edition 5th Indian reprint,2009
+    2. The Art of Designing Embedded systems- Ganssle, Jack, Newness 
+    3. Embedded System, Architecture, Programming and Design- Raj Kamal ,TMH,2nd Edition 2008.</string>
+    <string name="es9">
+
+
+    1. A Unified Hardware/Software Introduction-Frank Vahid/Tony Givargis, Wiley student edition 2002
+    2. Motorola and Intel Manuals
+    3.Embeded Software Premier,Simon David, Addison Wessly 2000.</string>
+
+
+
+    <string name="oops_name">OBJECT ORIENTED PROGRAMMING USING C ++</string>
+
+    <string name="oops">Subject Code: 10EE664
+    IA Marks: 25
+    Hrs. /Week: 04 Exam Hrs. 03
+    Total Hrs. 52 Exam Marks: 100</string>
+
+    <string name="oops1">PART - A</string>
+
+    <string name="oops2">
+
+    PRINCIPLES OF OBJECT-ORIENTED PROGRAMMING: Review of Procedure Oriented Programming, Basic concepts of Object Oriented Programming – Object, Class, Encapsulation, Inheritance, Polymorphism; Benefits of OOPs, Applications of OOP’s. 4 Hours
+    </string>
+    <string name="oops3">
+
+    THE BASIC LANGUAGE C++: A comparison of C and C++, Structure of C++ program with Class, Preprocessor directives, C++ Statements – Input/Output, Comments, Tokens, Keywords, Identifiers, Constants, Data types – string, pointer, reference, boole, enumeration, array, complex number; typedef names, type compatibility, type conversion, qualifier – const, volatile; Operators in C++, Operator Precedence and Operator Overloading; C++ expressions – New and Delete. 6 Hours
+    </string>
+    <string name="oops4">
+
+    FUNCTIONS IN C++: Introduction, The main() function, Function prototype, Call by reference, Return by reference, Inline functions, Default arguments, const Arguments, Function Overloading, Friend and Virtual functions, pointer to functions.8 hours
+    </string>
+    <string name="oops5">
+
+    CLASSES AND OBJECTS: Introduction – declaration and definition of a Class, defining member functions, C++ program with a Class, Making an outside function Inline, Nesting of member functions, Arrays within a class, Static data members, static member functions, Objects – global and local objects, scope and lifetime, memory allocation for objects, dynamically allocated objects, pointers to objects, arrays of objects, function arguments with objects, returning objects; const member functions. 8 Hours
+    </string>
+    <string name="oops6">PART - B
+    </string>
+    <string name="oops7">
+
+    CONSTRUCTORS AND DESTRUCTORS: Introduction, Constructors, Parameterized Constructors, Multiple constructors in a class, Constructors with default arguments, Dynamic initialization of objects, Copy constructor, Constructing two-dimensional arrays, const Objects, Destructors. 4 Hours
+    </string>
+    <string name="oops8">
+
+    OPERATOR OVERLOADING AND TYPE CONVERSION: Introduction, Defining operator overloading, Overloading unary operators, Overloading binary operators, Overloading binary operators using Friends, Rules for overloading operators, overloading a comma operator, overloading the output operator , Type conversion. 7 Hours
+    </string>
+    <string name="oops9">
+
+    INHERITANCE: Introduction, Defining derived classes, Single inheritance, Making a private member Inheritable, Multilevel inheritance, Multiple inheritance, Hierarchical inheritance, Hybrid inheritance, Virtual base classes, Abstract classes, Constructors and Destructors in base and derived classes. 6 Hours
+    </string>
+    <string name="oops10">
+
+    POINTER, VIRTUAL FUNCTIONS AND POLYMORPHISM: Introduction, Pointers, Pointers to Objects, this pointer, Pointers to derived classes, type-checking pointers, pointers to members, Virtual functions, Pure virtual functions.
+    MANAGING CONSOLE I/O AND FILE I/O: C++ streams, C++ stream classes, examples of formatted and unformatted I/O operations, Classes for file stream operations, Methods of Opening and Closing a File, Examples of Opening file using constructor open(), file modes (simple programming exercises). 9 Hours
+    </string>
+    <string name="oops11">
+
+    1. Object Oriented Programming with C++- Balagurusamy, E, TMH,4th edition, 2008.
+    2. C++, The Complete Reference -Herbert Schildt, , TMH, 4th edition
+    3. Object Oriented Programming with C++, Farrell,Cengage Learning,First Edition,2008.
+    </string>
+   <string name="oops12">
+
+    1. The C++ programming language,Bjarne Stroustrup, Pearson Education, 3rd edition,2006.
+    2. Objected oriented programming with C++,Bhave, Pearson Education, First Edition,2006.
+    </string>
+
+
+    <string name="or_name">
+    OPERATION RESEARCH</string>
+<string name="or">
+    Subject Code: 10EE661
+    IA Marks: 25
+    Hrs. /Week: 04 Exam Hrs. 03
+    Total Hrs. 52 Exam Marks: 100</string>
+<string name="or1">
+    PART – A</string>
+<string name="or2">
+
+    Linear Programming, Introduction, formulation of linear programming problem, Standard and matrix from, graphical solution, simplex method, computational procedure, Big-M method, Two-phase simplex method. 8 Hours
+    </string>
+    <string name="or3">
+
+    Special cases, Degeneracy, alternative optimal solutions, unbounded solutions, Non-existing optimal solutions. Duality in LPP, primal-dual relation, Formulation of dual problem, primal-dual optimal solution, limitations of LPP. 8 Hours
+    </string>
+    <string name="or4">
+
+    ADVANCED LINEAR PROGRAMMING: Revised simplex method,dual simplex method,parametric programming. 5 Hours
+    </string>
+    <string name="or5">
+
+    Assignment problems, Introduction, Formulation, Hungarian method of solving assignment problem, special cases, Traveling salesman problem. 5 Hours
+    </string>
+    <string name="or6">
+    PART – B
+    </string>
+    <string name="or7">
+
+    TRANSPORTATION PROBLEMS: Basic feasible solution by different methods, fixing optimal solutions-stepping stone methode, MODI method, degenerasity. 7 Hours
+    </string>
+    <string name="or8">
+
+    GAMES THEORY: Introduction to optimal strategies, solution of 2 x 2, 2 x n, m x 2 games. Concept of dominance, Graphical method of solving. Sequencing problems, n-jobs and one machine. Heuristic problem solving (Continued) n-jobs and two machines, n-jobs and three machines, two jobs and m machines. N-jobs and m-machines. 7 Hours
+    </string>
+    <string name="or9">
+
+    PERT-CPM TECHNICS: Network construction, determining critical path, floats, scheduling by network, project duration, variance under probabilistic modes, prediction of date of completion, crashing of a simple networks, resource leveling by network techniques. 6 Hours
+    </string>
+    <string name="or10">
+
+
+    Replacement theory, Introduction, Economic life of equipments, Replacement considering both the cases with and without tie value of money, group replacement policy. 6 Hours
+    </string>
+    <string name="or11">
+
+
+    1.Fundamentals of operations research – Ackoff, R.L. and Sasieni, M.W. Wiley eastern limited, New Delhi.
+    2.Opretions Research Applications and Algorithms, Wayne L. Winston,Cengage Learning,4th Edition,2009.
+    3.Operations Research – Bronson, R- Schaum’s outline series, Mc Graw Hill International, 2nd Edition.
+    4.Introduction to operations Research,Gillet, B.e., TMH,1979.
+    5. Introduction to operations Research – Hillier, F.S. and Lieberman, G.J, TMH, 8th Edition, 2009
+    6. Operational Research, S.D Sharma</string>
+
+
+
+
+
+
+    <string name="caed_name"> CAED (COMPUTER AIDED ELECTRICAL DRAWING)</string>
+
+   <string name="caed"> Subject Code: 10EE65
+    IA Marks: 25
+    Hrs. /Week: 04 Exam Hrs. 03
+    Total Hrs. 52 Exam Marks: 100</string>
+
+    <string name="caed1">PART - A</string>
+
+     <string name="caed2"> Winding Diagrams
+    (a) Developed winding diagrams of D.C. machines – Simplex and multiplex double layer Lap and Wave windings.
+    (b) Developed winding diagrams of A.C. machines
+    (i) Integral and Fractional slot double layer Lap and Wave windings.
+    (ii) Single layer windings – Un-bifurcated 2 and 3 tier windings, mush windings, Bifurcated 2 and 3 tier windings. 20 Hours</string>
+
+    <string name="caed3"> Single line diagrams of generating stations and substations. 6 Hours</string>
+
+    <string name="caed4">PART - B</string>
+
+      <string name="caed5">Electrical machine assembly drawing using designs data or sketches or both.
+    (a) Transformers - sectional views of single and three phase core and shell type transformers.
+    (b) D.C. machine - sectional views of yoke, field system, armature and commutator dealt Separately.
+    (c) Alternator – sectional views of stator and rotor dealt separately. 26Hours</string>
+
+      <string name="caed6">
+
+    1.Performance and Design of Alternating Current machines, M. G. Say, CBS publishers,3rd Edition,2002.
+    2.The Performance and Design of DC machines A.E Clayton and N.N.Hancock CBS Publication,3rd Edition,2004.</string>
+
+      <string name="caed7">
+
+    1. Manuals of Auto – CAD</string>
+
+    <string name="caed8">Problems / Examples to be solved by Auto-CAD, may be picked up from above references.</string>
+
+
+
+
+    <string name="dsp_name">DIGITAL SIGNAL PROCESSING</string>
+
+    <string name="dsp">Subject Code: 10EE64
+    IA Marks: 25
+    Hrs. /Week: 04 Exam Hrs. 03
+    Total Hrs. 52 Exam Marks: 100</string>
+
+    <string name="dsp1">PART - A</string>
+
+        <string name="dsp2">
+
+    Discrete Fourier Transforms: Definitions, properties-linearity, shift, symmetry etc, circular convolution –
+    periodic convolution, use of tabular arrays, circular arrays, stock hams’s method, linear convolution – two finite duration sequence, one finite and one infinite duration, overlap add and save methods. 14 Hours
+    </string>
+        <string name="dsp3">
+
+    FAST FOURIER TRANSFORMS ALGORITHMS: Introduction, decimation in time algorithm, first decomposition, number of computations, continuation of decomposition, number of multiplications, computational efficiency, decimation in frequency algorithms, algorithm, inverse decimation in time and inverse decimation in frequency algorithms, decomposition for a composite number N=9. 12 Hours
+    </string>
+
+
+        <string name="dsp4">PART - B
+    </string>
+       <string name="dsp5">
+
+    DESIGN OF IIR DIGITAL FILTERS:Introduction, impulse invariant and bilinear transformations, all pole analog filters- Butterworth and chebyshev, design of digital Butterworth and chebyshev, frequency transformations 12 Hours
+    </string>
+        <string name="dsp6">
+
+    DESIGN OF FIR DIGITAL FILTERS:Introduction, windowing, rectangular, modified rectangular, Hamming, Hanning, blackman window(excluding Kaiser window), frequency sampling techniques. `8 Hours
+
+    DESIGN OF INDUCTION MOTORS: Output equation, Choice of specific loadings, main dimensions of three phase induction motor, Stator winding design, choice of length of the air gap, estimation of number of slots for the squirrel cage rotor, design of Rotor bars and end ring, design of Slip ring induction motor, estimation of No load current and leakage reactance, and circle diagram. 14 Hours
+    </string>
+       <string name="dsp7">
+
+    REALIZATION OF DIGITAL SYSTEMS:Introduction, block diagrams and SFGs, realization of IIR systems- direct form, cascaded, parallel form, ladder structures for equal degree polynomial, realization of FIR systems – direct form, cascade form, linear phase realization. 06 Hours
+    </string>
+        <string name="dsp8">
+
+    1. Digital Signal Processing Principle, Algorithm and application, Proakis, Pearson,4th education, 2009.
+    2. Digital Signal Processing , Sanjeet. K. Mitra ,TMH,3rd Edition,2009.
+    </string>
+        <string name="dsp9">
+
+    1. Introduction To Digital Signal Processing, Johnny R. Johnson,PHI,2009
+    2. Discrete Time Signal Processing,Openheim, pearson 2nd Edition 2009
+    3. Digital Signal Processing,S.Salivahanan,A. Vallaraj,C.Gnanapriya,TMH,2nd Edition,2010.
+    4. Digital Signal Processing, Ifeachor Emmauel- Pearson education,2nd Edition,2006.
+    5. Fundamentals of Digital Signal Processing,Ludeman,John Wiley, 3rd Edition,2008
+    </string>
+
+
+    <string name="emd_name">ELECTRICAL MACHINE DESIGN</string>
+<string name="emd">
+    Subject Code: 10EE63
+    IA Marks: 25
+    Hrs. /Week: 04 Exam Hrs. 03
+    Total Hrs. 52 Exam Marks: 100</string>
+<string name="emd1">
+    PART - A</string>
+<string name="emd2">
+
+
+    PRINCIPLES OF ELECTRICAL MACHINE DESIGN: Introduction, considerations for the design of electrical machines, limitations. Different types of materials and insulators used in electrical machines. 4 Hours
+    </string>
+   <string name="emd3">
+
+    DESIGN OF DC MACHINES: Output equation, choice of specific loadings and choice of number of poles, design of Main dimensions of the DC machines, Design of armature slot dimensions, commutator and brushes, magnetic circuit - estimation of ampere turns, design of yoke and poles- main and inter poles, field windings – shunt, series and inter poles. 10 Hours
+    </string>
+    <string name="emd4">
+
+    DESIGN OF TRANSFORMERS (Single phase and three phase): Output equation for single phase and three phase transformers, choice of specific loadings, expression for volts/turn, determination of main dimensions of the core, types of windings and estimation of number of turns and conductor cross sectional area of Primary and secondary windings, estimation of no load current, expression for leakage reactance and voltage regulation. Design of tank and cooling tubes (round and rectangular) 12 Hours
+    </string>
+    <string name="emd5">PART - B
+    </string>
+    <string name="emd6">
+
+    DESIGN OF INDUCTION MOTORS: Output equation, Choice of specific loadings, main dimensions of three phase induction motor, Stator winding design, choice of length of the air gap, estimation of number of slots for the squirrel cage rotor, design of Rotor bars and end ring, design of Slip ring induction motor, estimation of No load current and leakage reactance, and circle diagram. 14 Hours
+    </string>
+    <string name="emd7">
+
+    DESIGN OF SYNCHRONOUS MACHINES:Output equation, Choice of specific loadings, short circuit ratio, design of main dimensions, armature slots and windings, slot details for the stator of salient and non salient pole synchronous machines. Design of rotor of salient pole synchronous machines, magnetic circuits, dimensions of the pole body, design of the field winding, and design of rotor of non-salient pole machine . 12 Hours
+    </string>
+    <string name="emd8">
+
+    1. A Course In Electrical Machine Design, A.K.Sawhney,Dhanpatt Rai and Sons
+    2. Design Of Electrical Machines, V. N. Mittle, 4th edition
+    </string>
+   <string name="emd9">
+
+    1. Performance And Design Of AC Machines, M.G.Say,CBS Publishers and Distributors Pvt.Ltd.
+    2. Design Data Handbook,A.Shanmugasundarm, G,Gangadharan,R.Palani,Wiley Eastern Ltd.
+    </string>
+
+
+    <string name="sgp_name">SWITCHGEAR &amp; PROTECTION </string>
+<string name="sgp">
+    Subject Code: 10EE62
+    IA Marks: 25
+    Hrs. /Week: 04 Exam Hrs. 03
+    Total Hrs. 52 Exam Marks: 100</string>
+<string name="sgp1">
+    PART - A</string>
+<string name="sgp2">
+
+    SWITCHES AND FUSES: Introduction, energy management of power system, definition of switchgear, switches - isolating, load breaking and earthing. Introduction to fuse, fuse law, cut -off characteristics,: Time current characteristics, fuse material, HRC fuse, liquid fuse, Application of fuse. 4 Hours
+    </string>
+   <string name="sgp3">
+
+    PRINCIPLES OF CIRCUIT BREAKERS:Introduction, requirement of a circuit breakers, difference between an isolator and circuit breaker, basic principle of operation of a circuit breaker, phenomena of arc, properties of arc, initiation and maintenance of arc, arc interruption theories - slepian’s theory and energy balance theory, Restriking voltage, recovery voltage, Rate of rise of Restriking voltage, DC circuit breaking, AC circuit breaking, current chopping, capacitance switching, resistance switching, Rating of Circuit breakers. 10 Hours
+    </string>
+    <string name="sgp4">
+
+    CIRCUITS BREAKERS: Air Circuit breakers – Air break and Air blast Circuit breakers, oil Circuit breakers - Single break, double break, minimum OCB, SF6 breaker - Preparation of SF6 gas, Puffer and non Puffer type of SF6 breakers. Vacuum circuit breakers - principle of operation and constructional details. Advantages and disadvantages of different types of Circuit breakers, Testing of Circuit breakers, Unit testing, synthetic testing, substitution test, compensation test and capacitance test.
+    LIGHTNING ARRESTERS: Causes of over voltages – internal and external, lightning, working principle of different types of lightning arresters. Shield wires. 12 Hours
+    </string>
+    <string name="sgp5">PART - B
+    </string>
+    <string name="sgp6">
+
+    PROTECTIVE RELAYING: Requirement of Protective Relaying, Zones of protection, primary and backup protection, Essential qualities of Protective Relaying, Classification of Protective Relays. 4 Hours
+    </string>
+    <string name="sgp7">
+
+    INDUCTION TYPE RELAY: Non-directional and directional over current relays, IDMT and Directional characteristics. Differential relay – Principle of operation, percentage differential relay, bias characteristics, distance relay – Three stepped distance protection, Impedance relay, Reactance relay, Mho relay, Buchholz relay, Negative Sequence relay, Microprocessor based over current relay – block diagram approach. 10 Hours
+    </string>
+    <string name="sgp8">
+
+    PROTECTION SCHEMES: Generator Protection - Merz price protection, prime mover faults, stator and rotor faults, protection against abnormal conditions – unbalanced loading, loss of excitation, over speeding. Transformer Protection - Differential protection, differential relay with harmonic restraint, Inter turn faults Induction motor protection - protection against electrical faults such as phase fault, ground fault, and abnormal operating conditions such as single phasing, phase reversal, over load. 12 Hours
+    </string>
+    <string name="sgp9">
+
+    1. Switchgear &amp; Protection Sunil S.Rao,,Khanna Publishers,13th Edition,2008.
+    2. Power System Protection &amp; Switchgear,Badriram &amp; Viswa Kharma ,TMH,1st edition, 2001.
+    3. Fundamentals of Power System protection, Y G. Painthankar and S R Bhide,PHI, 2009.
+    </string>
+    <string name="sgp10">
+
+    1. A Course in Electrical Power, Soni, Gupta &amp; Bhatnagar, Dhanapatirai.
+    2. Power System Protection &amp; Switchgear,Ravindarnath &amp; Chandra -New age Publications.
+    3 Electrical Power, Dr S. L. Uppal, Khanna Publishers.
+    4. Handbook of Switchgears, BHEL,TMH, 5th reprint,2008.
+    </string>
+
+
+
+
+
+
+
+    <string name="psa_name">POWER SYSTEM ANALYSIS AND STABILITY</string>
+<string name="psa">
+    Subject Code: 10EE61
+    IA Marks: 25
+    Hrs. /Week: 04 Exam Hrs. 03
+    Total Hrs. 52 Exam Marks: 100</string>
+<string name="psa1">
+    PART - A</string>
+<string name="psa2">
+
+
+    REPRESENTATION OF POWER SYSTEM COMPONENTS: Circuit models of Transmission line, Synchronous machines, Transformers and load. Single line diagram, impedance and reactance diagrams. Per unit system, per unit impedance diagram of power system. 8 Hours
+    </string>
+    <string name="psa3">
+
+    SYMMETRICAL 3 - PHASE FAULTS: Analysis of Synchronous machines and Power system. Transients on a transmission line, Short-Circuit currents and the reactance of synchronous machines with and without load . 6 Hours
+    </string>
+    <string name="psa4">
+
+    SYMMETRICAL COMPONENTS:Introduction, analysis of unbalanced load against balanced Threephase supply, neutral shift. Resolution of unbalanced phasors into their symmetrical components, Phase shift of symmetrical components in star-delta transformer bank, Power in terms of symmetrical components, Analysis of balanced and unbalanced loads against unbalanced 3 phase supply, Sequence impedances and networks of power system elements (alternator, transformer and transmission line) Sequence networks of power systems. Measurement of sequence impedance of synchronous generator. 12 Hours
+    </string>
+    <string name="psa5">Part - B
+    </string>
+    <string name="psa6">
+
+    UNSYMMETRICAL FAULTS: L-G, L-L, L-L-G faults on an unbalanced alternator with and without fault impedance. Unsymmetrical faults on a power system with and without fault impedance. Open conductor faults in power system. 14 Hours
+    </string>
+    <string name="psa7">
+
+    STABILITY STUDIES: Introduction, Steady state and transient stability. Rotor dynamics and the swing equation. Equal area criterion for transient stability evaluation and its applications. 8 Hours
+    </string>
+    <string name="psa8">
+
+    UNBALANCED OPERATION OF THREE PHASE INDUCTION MOTRORS: Analysis of three phase induction motor with one line open., Analysis of three phase induction motor with unbalanced voltage.4 Hours
+    </string>
+    <string name="psa9">
+
+    1. Elements of Power System Analysis, W.D.Stevenson, TMH,4th Edition
+    2. Modern Power System Analysis,.I. J. Nagrath and D.P.Kothari- TMH, 3rd Edition,2003.
+    3. Symmetrical Components and Short Circuit Studies,Dr.P.N.Reddy, Khanna Publishers
+    </string>
+    <string name="psa10">
+
+    1. Power System Analysis, Hadi Sadat, TMH,2nd Edition.
+    2. Power system Analysis, R.Bergen, and Vijay Vittal, Pearson publications, 2nd edition, 2006. 
+    3. Computer Aided Power system analysis, G.L., Kusic, PHI.Indian Edition, 2010 .
+    4. Power System Analysis,W.D.Stevenson &amp; Grainger,TMH, First Edition, 2003.
+    </string>
+
+
+
+    <string name="fl_name"> FUZZY LOGIC</string>
+ <string name="fl">
+    Subject Code: 10EE663
+    IA Marks: 25
+    Hrs. /Week: 04 Exam Hrs. 03
+    Total Hrs. 52 Exam Marks: 100</string>
+ <string name="fl1">
+    PART - A</string>
+ <string name="fl2">
+
+    THE MATHEMATICS OF FUZZY CONTROL: Fuzzy sets, Properties of fuzzy sets, operation in fuzzy sets, fuzzy relations, the extension principle. 8 Hours
+    </string>
+     <string name="fl3">
+
+    THEORY OF APPROXIMATE REASONING:Linguistic variables, Fuzzy proportions, Fuzzy if- then statements, inference rules, compositional rule of inference.
+    NON-LINEAR FUZZY CONTROL: FKBC as a linear transient element, PID like FKBC, sliding mode FKBC, Sugeno FKBC. 18 Hours
+    </string>
+     <string name="fl4">PART - B
+    </string>
+     <string name="fl5">
+
+    FUZZY KNOWLEDGE BASED CONTROLLERS (FKBC): Basic concept structure of FKBC, choice of membership functions, scaling factors, rules, fuzzyfication and defuzzyfication procedures. Simple applications of FKBC (washing machines, traffic regulations, lift control, aircraft landing Control etc). 14 Hours
+    </string>
+     <string name="fl6">
+
+    ADAPTIVE FUZZY CONTROL: Process performance monitoring, adaption mechanisms, membership functions, tuning using gradient descent and performance criteria. Set organizing controller model based controller. 12 Hours
+    </string>
+     <string name="fl7">
+
+    1. Fuzzy Logic With Engineering Applications- Timoty Ross,John Wiley, Second Edition, 2009.
+    2. Fuzzy Sets Uncertainty and Information- G. J. Klir and T. A. Folger, PHI IEEE, 2009.
+    </string>
+     <string name="fl8">
+
+    1. An Introduction to Fuzzy Control, D. Diankar, H. Hellendoom and M. Reinfrank ,Narosa Publishers India, 1996.
+    2. Essentials of Fuzzy Modeling and Control, R. R. Yaser and D. P. Filer,John Wiley, 2007.
+    3. Fuzzy Logic Intelligence Control And Information, Yen- Pearson education,First Edition,2006.
+    </string>
+
+
+
+
+
+    <string name="ape_name">ADVANCED POWER ELECTRONICS  </string>
+ <string name="ape">
+    Subject Code: 10EE662
+    IA Marks: 25
+    Hrs. /Week: 04 Exam Hrs. 03
+    Total Hrs. 52 Exam Marks: 100  </string>
+
+    <string name="ape1">PART - A  </string>
+
+    <string name="ape2">
+
+    DC-DC SWITCHED MODE CONVERTERS:Topologies, Buck, boost, buck-boost, and Cuk converters, Full Bridge DC-DC converter-detailed theory, working principles, modes of operation, with detailed circuits and wave forms, applications, merits and demerits. 16 Hours
+
+    </string>
+    <string name="ape3">
+
+    DC-AC SWITCHED MODE INVERTERS:Single-phase inverters, three phase inverters. SPWM inverter, detailed theory, working principles, modes of operation with circuit analysis, applications, merits and demerits, problems based on input output voltage relationship. 10 Hours
+    </string>
+    <string name="ape4"> PART - B
+    </string>
+     <string name="ape5">
+
+    RESONANT CONVERTERS: Zero voltage and zero current switching, resonant switch converters, and comparison with hard switching, switching locus diagrams, and working principle. 8 Hours
+    </string>
+     <string name="ape6">
+
+    HIGH FREQUENCY INDUCTOR AND TRANSFORMERS: Design principles, definitions, comparison with conventional design and problems. Design of Flyback transformer. 08 Hours
+    </string>
+    <string name="ape7">
+
+    POWER SUPPLIES: Introduction, DC power supplies: fly back converter, forward converter, push-pull converter, half bridge converter, full bridge converter, AC power supplies: switched mode ac power supplies, resonant ac power supplies, bidirectional ac power supplies.10 Hours
+    </string>
+     <string name="ape8">
+
+    1. Power Electronics, Daniel.W.Hart, TMH, First Edition,2010.
+    2. Power Electronics - converters, application &amp; design, Mohan N, Undeland T.M., Robins,
+    W.P,John Wiley ,3rd Edition 2008
+    3. Power Electronics-Circuits, Devices, Applications, Rashid M.H., PHI, 3rd Edition, 2008.
+    </string>
+     <string name="ape9">
+
+    1.Power Electronics Essentials and Applications,L.Umanand, Wiely India Pvt Ltd,Reprint,2010
+    2.Modern Power Electronics and A.C. Drives, Bose B.K, PHI, 2009.
+    3. Digital Power Electronics And Applications, Muhammad Rashid, Elsevier , first edition, 2005.
+    4. Power Electronics,Devices,Circuits and Industrial Applications,V.R.Moorthi,Oxford,7th impression,2009.
+    </string>
+
+
+
+
+
+
+    <string name="eem_name"> ELECTRICAL ENGINEERING MATERIALS    </string>
+    <string name="eem">
+    Subject Code: 10EE666
+    IA Marks: 25
+    Hrs. /Week: 04 Exam Hrs. 03
+    Total Hrs. 52 Exam Marks: 100    </string>
+    <string name="eem1">
+    PART - A    </string>
+    <string name="eem2">
+
+    CONDUCTING MATERIALS: Review of metallic conduction on the basis of free electron theory. Fermi-Dirac distribution – variation of conductivity with temperature and composition, materials for electric resistors- general electric properties; material for brushes of electrical machines, lamp filaments, fuses and solder. 6 Hours
+    </string>
+        <string name="eem3">
+
+    SEMICONDUCTORS: Mechanism of conduction in semiconductors, density of carriers in intrinsic semiconductors, the energy gap, types of semiconductors. Hall effect, compound semiconductors, basic ideas of amorphous and organic semiconductors.
+    Magnetic materials: Classification of magnetic materials- origin of permanent magnetic dipoles, ferromagnetism, hard and soft magnetic materials, magneto materials used in electrical machines, instruments and relays. 10 Hours
+    </string>
+        <string name="eem4">
+
+    DIELECTRICS: Dielectric, polarization under static fields- electronic ionic and dipolar polarizations, behavior of dielectrics in alternating fields, Factors influencing dielectric strength and capacitor materials. Insulating materials, complex dielectric constant, dipolar relaxation and dielectric loss.
+    INSULATING MATERIALS: Inorganic materials (mica, glass, porcelain, asbestos), organic materials (paper, rubber, cotton silk fiber, wood, plastics and bakelite), resins and varnishes, liquid insulators (transformer oil) gaseous insulators (air, SF6 and nitrogen) and ageing of insulators. 10 Hours
+    </string>
+        <string name="eem5">PART - B
+    </string>
+        <string name="eem6">
+
+    MATERIALS FOR SPECIAL APPLICATIONS: Materials for solar cells, fuel cells and battery. Materials for coatings for enhanced solar thermal energy collection and solar selective coatings, Cold mirror coatings, heat mirror coatings, antireflection coatings, sintered alloys for breaker and switch contacts. 6 Hours
+    </string>
+        <string name="eem7">
+
+    MODERN TECHNIQUES FOR MATERIALS STUDIES: Optical microscopy, Electron microscopy, Photo electron spectroscopy, Atomic absorption spectroscopy, magnetic resonance, nuclear magnetic resonance, electron spin resonance and ferromagnetic resonance. 6 Hours
+    </string>
+        <string name="eem8">
+
+    Introduction Properties and Application of Piezoelectric materials, Eletrostrictive materials, Ferromagnetic materials, Magnetostrictive materials, Shape memory alloys, Electro archeological fluids, Magneto archeological fluids, Smart hydrogels. 6 Hours
+    </string>
+       <string name="eem9">
+
+    Ceramics: properties, application to conductors, insulators &amp; capacitors
+    Plastics: Thermoplastics, rubber, thermostats, properties. 8Hours
+    </string>
+        <string name="eem10">
+
+    1.An Introduction to Electrical Engineering- Indulkar C.S. &amp; Thiruvengadam. S,Chand publishers.
+    2.Materials Science for Electrical and Electronic Engineers, Ian P. Jones, Oxford University Press,Indian Edition, 2007.
+    3.Electrical Engineering Materials,Kapoor P L., Khanna Publications.
+    4.Renewable Energy Sources and Emerging Technologies, D.P. Kothari, K.C. Singal, Rakesh Ranjan. PHI, 2008.
+    </string>
+        <string name="eem11">
+
+    1.Electrical Properties of Materials, L.Solymar, D.Walsh, 8th Indian Edition- Oxford University Press Seventh Edition.
+    2.MEMS and MOEMS Technology and Applications, P.Rai-Choudhury (Editor), PHI,2009 .
+    3. Introduction to Electronic Properties and Materials,David Jiles,CRC Press,2nd Ediyion.
+    </string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="time">Time Table</string>
+    <string name="about">About App</string>
+
+    <string name="questionbank_me_name">M&amp;E Question Papers</string>
+    <string name="meq1">ME 2010 paper</string>
+    <string name="meq2">ME 2011 paper</string>
+    <string name="meq3">ME 2012 paper</string>
+    <string name="meq4">ME 2013 paper</string>
+    <string name="meq5">ME 2014 paper</string>
+    <string name="meq6">ME 2015 paper</string>
+
+    <string name="questionbank_ss_name">SS Question Papers</string>
+    <string name="ssq1">SS 2010 paper</string>
+    <string name="ssq2">SS 2011 paper</string>
+    <string name="ssq3">SS 2012 paper</string>
+    <string name="ssq4">SS 2013 paper</string>
+    <string name="ssq5">SS 2014 paper</string>
+    <string name="ssq6">SS 2015 paper</string>
+
+    <string name="questionbank_td_name">TD Question Papers</string>
+    <string name="tdq1">TD 2010 paper</string>
+    <string name="tdq2">TD 2011 paper</string>
+    <string name="tdq3">TD 2012 paper</string>
+    <string name="tdq4">TD 2013 paper</string>
+    <string name="tdq5">TD 2014 paper</string>
+    <string name="tdq6">TD 2015 paper</string>
+
+    <string name="questionbank_dcm_name">DCM Question Papers</string>
+    <string name="dcmq1">DCM 2010 paper</string>
+    <string name="dcmq2">DCM 2011 paper</string>
+    <string name="dcmq3">DCM 2012 paper</string>
+    <string name="dcmq4">DCM 2013 paper</string>
+    <string name="dcmq5">DCM 2014 paper</string>
+    <string name="dcmq6">DCM 2015 paper</string>
+
+    <string name="questionbank_mct_name">MCT Question Papers</string>
+    <string name="mctq1">MCT 2010 paper</string>
+    <string name="mctq2">MCT 2011 paper</string>
+    <string name="mctq3">MCT 2012 paper</string>
+    <string name="mctq4">MCT 2013 paper</string>
+    <string name="mctq5">MCT 2014 paper</string>
+    <string name="mctq6">MCT 2015 paper</string>
+
+    <string name="questionbank_lica_name">LICA Question Papers</string>
+    <string name="licaq1">LICA 2010 paper</string>
+    <string name="licaq2">LICA 2011 paper</string>
+    <string name="licaq3">LICA 2012 paper</string>
+    <string name="licaq4">LICA 2013 paper</string>
+    <string name="licaq5">LICA 2014 paper</string>
+    <string name="licaq6">LICA 2015 paper</string>
+
+</resources>
+
+
+

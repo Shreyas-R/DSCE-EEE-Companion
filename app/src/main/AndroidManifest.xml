@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sr.eeecompanion"
+    android:versionCode="2"
+    android:versionName="alpha_build_2"
+    android:installLocation="preferExternal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/main_activity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".sem3"
+            android:label="@string/sem3" />
+        <activity
+            android:name=".sem4"
+            android:label="@string/sem4" />
+        <activity
+            android:name=".sem5"
+            android:label="@string/sem5" />
+        <activity
+            android:name=".sem6"
+            android:label="@string/sem6" />
+        <activity
+            android:name=".sem7"
+            android:label="@string/sem7" />
+        <activity
+            android:name=".sem8"
+            android:label="@string/sem8" />
+        <activity
+            android:name=".syllabus_sem3"
+            android:label="@string/syllabus_sem3" />
+        <activity
+            android:name=".syllabus_sem5"
+            android:label="@string/syllabus_sem5" />
+        <activity
+            android:name=".syllabus_sem6"
+            android:label="@string/syllabus_sem6" />
+        <activity
+            android:name=".timetable_sem5"
+            android:label="@string/timetable_sem5" />
+        <activity
+            android:name=".questionbank_sem3"
+            android:label="@string/questionbank_sem3" />
+        <activity
+            android:name=".questionbank_sem5"
+            android:label="@string/questionbank_sem5" />
+        <activity
+            android:name=".About"
+            android:label="@string/nothing" />
+        <activity
+            android:name=".MEq"
+            android:label="@string/questionbank_me_name" />
+        <activity
+            android:name=".MEq1"
+            android:label="@string/meq1" />
+        <activity
+            android:name=".MEq2"
+            android:label="@string/meq2" >
+        </activity>
+        <activity
+            android:name=".MEq3"
+            android:label="@string/meq3" >
+        </activity>
+        <activity
+            android:name=".MEq4"
+            android:label="@string/meq4" >
+        </activity>
+        <activity
+            android:name=".MEq5"
+            android:label="@string/meq5" >
+        </activity>
+        <activity
+            android:name=".MEq6"
+            android:label="@string/meq6" >
+        </activity>
+        <activity
+            android:name=".LICAq"
+            android:label="@string/questionbank_lica_name" />
+        <activity
+            android:name=".LICAq1"
+            android:label="@string/licaq1" />
+        <activity
+            android:name=".LICAq2"
+            android:label="@string/licaq2" >
+        </activity>
+        <activity
+            android:name=".LICAq3"
+            android:label="@string/licaq3" >
+        </activity>
+        <activity
+            android:name=".LICAq4"
+            android:label="@string/licaq4" >
+        </activity>
+        <activity
+            android:name=".LICAq5"
+            android:label="@string/licaq5" >
+        </activity>
+        <activity
+            android:name=".LICAq6"
+            android:label="@string/licaq6" >
+        </activity>
+        <activity
+            android:name=".MCTq"
+            android:label="@string/questionbank_mct_name" />
+        <activity
+            android:name=".MCTq1"
+            android:label="@string/mctq1" />
+        <activity
+            android:name=".MCTq2"
+            android:label="@string/mctq2" />
+        <activity
+            android:name=".MCTq3"
+            android:label="@string/mctq3" />
+        <activity
+            android:name=".MCTq4"
+            android:label="@string/mctq4" />
+        <activity
+            android:name=".MCTq5"
+            android:label="@string/mctq5" />
+        <activity
+            android:name=".MCTq6"
+            android:label="@string/mctq6" />
+        <activity
+            android:name=".DCMq"
+            android:label="@string/questionbank_dcm_name" />
+        <activity
+            android:name=".DCMq1"
+            android:label="@string/dcmq1" />
+        <activity
+            android:name=".DCMq2"
+            android:label="@string/dcmq2" />
+        <activity
+            android:name=".DCMq3"
+            android:label="@string/dcmq3" />
+        <activity
+            android:name=".DCMq4"
+            android:label="@string/dcmq4" />
+        <activity
+            android:name=".DCMq5"
+            android:label="@string/dcmq5" />
+        <activity
+            android:name=".DCMq6"
+            android:label="@string/dcmq6" />
+        <activity
+        android:name=".SSq"
+        android:label="@string/questionbank_ss_name" />
+        <activity
+            android:name=".SSq1"
+            android:label="@string/ssq1" />
+        <activity
+            android:name=".SSq2"
+            android:label="@string/ssq2" />
+        <activity
+            android:name=".SSq3"
+            android:label="@string/ssq3" />
+        <activity
+            android:name=".SSq4"
+            android:label="@string/ssq4" />
+        <activity
+            android:name=".SSq5"
+            android:label="@string/ssq5" />
+        <activity
+            android:name=".SSq6"
+            android:label="@string/ssq6" />
+        <activity
+            android:name=".TDq"
+            android:label="@string/questionbank_td_name" />
+        <activity
+            android:name=".TDq1"
+            android:label="@string/tdq1" />
+        <activity
+            android:name=".TDq2"
+            android:label="@string/tdq2" />
+        <activity
+            android:name=".TDq3"
+            android:label="@string/tdq3" />
+        <activity
+            android:name=".TDq4"
+            android:label="@string/tdq4" />
+        <activity
+            android:name=".TDq5"
+            android:label="@string/tdq5" />
+        <activity
+            android:name=".TDq6"
+            android:label="@string/tdq6" />
+        <activity
+            android:name=".tests_exams_sem5"
+            android:label="@string/tests_exams_header" />
+        <activity
+            android:name=".externalexam_timetable_sem5"
+            android:label="@string/externalexam_timetable_header" />
+
+    </application>
+
+</manifest>

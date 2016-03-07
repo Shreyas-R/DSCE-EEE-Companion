@@ -1,0 +1,430 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sr.eeecompanion.fragment_syllabus_mct">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:background="#ffdddddd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="@string/mct_name"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="false"
+                        android:gravity="center"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/mct"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/mct1"
+                        android:textColor="#666"
+                        android:textSize="14dp"
+                        android:textAlignment="center"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/mct1"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="UNIT 1 , 2"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/mct1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/mct2"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/mct2"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="UNIT 3"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/mct2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/mct3"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/mct3"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="UNIT 4"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/mct3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/mct4"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/mct5"
+                        android:textColor="#666"
+                        android:textSize="14dp"
+                        android:textAlignment="center"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/mct4"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="UNIT 5"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/mct4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/mct6"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/mct5"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="UNIT 6"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/mct5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/mct7"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/mct6"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="UNIT 7"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/mct6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/mct8"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/mct7"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="UNIT 8"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/mct7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/mct9"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+
+                    <TextView
+                        android:id="@+id/mct8"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="TEXTBOOKS"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_below="@+id/mct8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/mct10"
+                        android:textAlignment="center"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+
+                    <TextView
+                        android:id="@+id/mct9"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="REFERENCE BOOKS"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_below="@+id/mct9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/mct11"
+                        android:textAlignment="center"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

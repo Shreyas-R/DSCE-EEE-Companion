@@ -1,0 +1,394 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sr.eeecompanion.fragment_syllabus_psa">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:background="#ffdddddd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="@string/psa_name"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22dp"
+                        android:gravity="center"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/psa"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/psa1"
+                        android:textColor="#666"
+                        android:textSize="14dp"
+                        android:textAlignment="center"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/psa1"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="UNIT 1"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/psa1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/psa2"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/psa2"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="UNIT 2"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/psa2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/psa3"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/psa3"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="UNIT 3, 4"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/psa3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/psa4"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/psa5"
+                        android:textColor="#666"
+                        android:textSize="14dp"
+                        android:textAlignment="center"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/psa5"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="UNIT 5, 6"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/psa5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/psa6"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/psa7"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="UNIT 7"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/psa7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/psa7"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/psa8"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="UNIT 8"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/psa8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/psa8"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+
+                    <TextView
+                        android:id="@+id/psa9"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="TEXTBOOKS"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_below="@+id/psa9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/psa9"
+                        android:textAlignment="center"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+
+                    <TextView
+                        android:id="@+id/psa10"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="REFERENCE BOOKS"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_below="@+id/psa10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/psa10"
+                        android:textAlignment="center"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

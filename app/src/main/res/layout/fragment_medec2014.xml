@@ -1,0 +1,13 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sr.eeecompanion.medec2014">
+
+    <com.sr.eeecompanion.TouchImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/medec2014"
+        android:layout_gravity="center_horizontal" />
+
+</FrameLayout>

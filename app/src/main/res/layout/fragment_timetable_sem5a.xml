@@ -1,0 +1,993 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sr.eeecompanion.fragment_timetable_sem5a">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:background="#ffdddddd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/m"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/m" />
+
+
+                    <TextView
+                        android:id="@+id/m1"
+                        android:layout_toRightOf="@+id/m"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="1.ME"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_toRightOf="@+id/m1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="(9:00-10:00)[KS]"
+                        android:textColor="#222"
+                        android:textSize="10sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:id="@+id/m2"
+                        android:layout_below="@id/m1"
+                        android:layout_toRightOf="@id/m"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="2.SS"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_toRightOf="@id/m2"
+                        android:layout_below="@id/m1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="(10:00-11:00)[SK]"
+                        android:textColor="#222"
+                        android:textSize="10sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:id="@+id/m3"
+                        android:layout_below="@id/m2"
+                        android:layout_toRightOf="@id/m"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="3.DCM"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_toRightOf="@id/m3"
+                        android:layout_below="@id/m2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="(11:15-12:15)[NN]"
+                        android:textColor="#222"
+                        android:textSize="10sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:id="@+id/m4"
+                        android:layout_below="@id/m3"
+                        android:layout_toRightOf="@id/m"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="4.MCT"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_toRightOf="@id/m4"
+                        android:layout_below="@id/m3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="(12:15-1:15)[TNV]"
+                        android:textColor="#222"
+                        android:textSize="10sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:id="@+id/m5"
+                        android:layout_below="@id/m4"
+                        android:layout_toRightOf="@id/m"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="5.TIM LAB[A1]"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_toRightOf="@id/m5"
+                        android:id="@+id/m7"
+                        android:layout_below="@id/m4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="(2:00-5:00)[KR,STR]"
+                        android:textColor="#222"
+                        android:textSize="10sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:id="@+id/m6"
+                        android:layout_below="@id/m7"
+                        android:layout_toRightOf="@id/m"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="  CSM LAB[A2]"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_toRightOf="@id/m6"
+                        android:layout_below="@id/m7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="(2:00-5:00)[BR,RHS]"
+                        android:textColor="#222"
+                        android:textSize="10sp"
+                        android:gravity="center" />
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/t"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/t" />
+
+
+                    <TextView
+                        android:id="@+id/t1"
+                        android:layout_toRightOf="@id/t"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="1.DCM"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_toRightOf="@+id/t1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="(9:00-10:00)[NN]"
+                        android:textColor="#222"
+                        android:textSize="10sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:id="@+id/t2"
+                        android:layout_below="@id/t1"
+                        android:layout_toRightOf="@id/t"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="2.ME"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_toRightOf="@id/t2"
+                        android:layout_below="@id/t1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="(10:00-11:00)[KS]"
+                        android:textColor="#222"
+                        android:textSize="10sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:id="@+id/t3"
+                        android:layout_below="@id/t2"
+                        android:layout_toRightOf="@id/t"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="3.TD"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_toRightOf="@id/t3"
+                        android:layout_below="@id/t2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="(11:15-12:15)[SS]"
+                        android:textColor="#222"
+                        android:textSize="10sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:id="@+id/t4"
+                        android:layout_below="@id/t3"
+                        android:layout_toRightOf="@id/t"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="4.LICA"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_toRightOf="@id/t4"
+                        android:layout_below="@id/t3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="(12:15-1:15)[YNS]"
+                        android:textColor="#222"
+                        android:textSize="10sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:id="@+id/t5"
+                        android:layout_below="@id/t4"
+                        android:layout_toRightOf="@id/t"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="5.TIM LAB[A2]"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_toRightOf="@id/t5"
+                        android:id="@+id/t7"
+                        android:layout_below="@id/t4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="(2:00-5:00)[KR,VB]"
+                        android:textColor="#222"
+                        android:textSize="10sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:id="@+id/t6"
+                        android:layout_below="@id/t7"
+                        android:layout_toRightOf="@id/t"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="  CSM LAB[A3]"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_toRightOf="@id/t6"
+                        android:layout_below="@id/t7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="(2:00-5:00)[JDR,ARN]"
+                        android:textColor="#222"
+                        android:textSize="10sp"
+                        android:gravity="center" />
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/w"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/w" />
+
+
+                    <TextView
+                        android:id="@+id/w1"
+                        android:layout_toRightOf="@id/w"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="1.MCT"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_toRightOf="@+id/w1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="(9:00-10:00)[TNV]"
+                        android:textColor="#222"
+                        android:textSize="10sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:id="@+id/w2"
+                        android:layout_below="@id/w1"
+                        android:layout_toRightOf="@id/w"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="2.TD"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_toRightOf="@id/w2"
+                        android:layout_below="@id/w1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="(10:00-11:00)[SS]"
+                        android:textColor="#222"
+                        android:textSize="10sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:id="@+id/w3"
+                        android:layout_below="@id/w2"
+                        android:layout_toRightOf="@id/w"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="3.DCM"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_toRightOf="@id/w3"
+                        android:layout_below="@id/w2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="(11:15-12:15)[NN]"
+                        android:textColor="#222"
+                        android:textSize="10sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:id="@+id/w4"
+                        android:layout_below="@id/w3"
+                        android:layout_toRightOf="@id/w"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="4.SS"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_toRightOf="@id/w4"
+                        android:layout_below="@id/w3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="(12:15-1:15)[SK]"
+                        android:textColor="#222"
+                        android:textSize="10sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:id="@+id/w5"
+                        android:layout_below="@id/w4"
+                        android:layout_toRightOf="@id/w"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="5.VATP"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_toRightOf="@id/w5"
+                        android:layout_below="@id/w4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="(2:00-5:00)[EC BLOCK ]"
+                        android:textColor="#222"
+                        android:textSize="10sp"
+                        android:gravity="center" />
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/th"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/th" />
+
+
+                    <TextView
+                        android:id="@+id/th1"
+                        android:layout_toRightOf="@id/th"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="1.LICA"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_toRightOf="@+id/th1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="(9:00-10:00)[YNS]"
+                        android:textColor="#222"
+                        android:textSize="10sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:id="@+id/th2"
+                        android:layout_below="@id/th1"
+                        android:layout_toRightOf="@id/th"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="2.SS"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_toRightOf="@id/th2"
+                        android:layout_below="@id/th1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="(10:00-11:00)[SK]"
+                        android:textColor="#222"
+                        android:textSize="10sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:id="@+id/th3"
+                        android:layout_below="@id/th2"
+                        android:layout_toRightOf="@id/th"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="3.MCT"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_toRightOf="@id/th3"
+                        android:layout_below="@id/th2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="(11:15-12:15)[TNV]"
+                        android:textColor="#222"
+                        android:textSize="10sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:id="@+id/th4"
+                        android:layout_below="@id/th3"
+                        android:layout_toRightOf="@id/th"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="4.ME"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_toRightOf="@id/th4"
+                        android:layout_below="@id/th3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="(12:15-1:15)[KS]"
+                        android:textColor="#222"
+                        android:textSize="10sp"
+                        android:gravity="center" />
+
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/f"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/f" />
+
+
+                    <TextView
+                        android:id="@+id/f1"
+                        android:layout_toRightOf="@id/f"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="1.SS"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_toRightOf="@+id/f1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="(9:00-10:00)[SK]"
+                        android:textColor="#222"
+                        android:textSize="10sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:id="@+id/f2"
+                        android:layout_below="@id/f1"
+                        android:layout_toRightOf="@id/f"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="2.MCT"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_toRightOf="@id/f2"
+                        android:layout_below="@id/f1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="(10:00-11:00)[TNV]"
+                        android:textColor="#222"
+                        android:textSize="10sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:id="@+id/f3"
+                        android:layout_below="@id/f2"
+                        android:layout_toRightOf="@id/f"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="3.TD"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_toRightOf="@id/f3"
+                        android:layout_below="@id/f2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="(11:15-12:15)[SS]"
+                        android:textColor="#222"
+                        android:textSize="10sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:id="@+id/f4"
+                        android:layout_below="@id/f3"
+                        android:layout_toRightOf="@id/f"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="4.LICA"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_toRightOf="@id/f4"
+                        android:layout_below="@id/f3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="(12:15-1:15)[YNS]"
+                        android:textColor="#222"
+                        android:textSize="10sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:id="@+id/f5"
+                        android:layout_below="@id/f4"
+                        android:layout_toRightOf="@id/f"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="5.SS[T]"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_toRightOf="@id/f5"
+                        android:layout_below="@id/f4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="(2:00-3:00)[SK]"
+                        android:textColor="#222"
+                        android:textSize="10sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:id="@+id/f6"
+                        android:layout_below="@id/f5"
+                        android:layout_toRightOf="@id/f"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="6.LICA[T]"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_toRightOf="@id/f6"
+                        android:layout_below="@id/f5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="(3:00-4:00)[YNS]"
+                        android:textColor="#222"
+                        android:textSize="10sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:id="@+id/f7"
+                        android:layout_below="@id/f6"
+                        android:layout_toRightOf="@id/f"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="7.MCT[T]"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_toRightOf="@id/f7"
+                        android:layout_below="@id/f6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="(4:00-5:00)[TNV]"
+                        android:textColor="#222"
+                        android:textSize="10sp"
+                        android:gravity="center" />
+
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/sa"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sa" />
+
+
+                    <TextView
+                        android:id="@+id/sa1"
+                        android:layout_toRightOf="@id/sa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="1.TD"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_toRightOf="@+id/sa1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="(9:00-10:00)[SS]"
+                        android:textColor="#222"
+                        android:textSize="10sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:id="@+id/sa2"
+                        android:layout_below="@id/sa1"
+                        android:layout_toRightOf="@id/sa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="2.DCM"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_toRightOf="@id/sa2"
+                        android:layout_below="@id/sa1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="(10:00-11:00)[NN]"
+                        android:textColor="#222"
+                        android:textSize="10sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:id="@+id/sa3"
+                        android:layout_below="@id/sa2"
+                        android:layout_toRightOf="@id/sa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="3.LICA"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_toRightOf="@id/sa3"
+                        android:layout_below="@id/sa2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="(11:15-12:15)[YNS]"
+                        android:textColor="#222"
+                        android:textSize="10sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:id="@+id/sa4"
+                        android:layout_below="@id/sa3"
+                        android:layout_toRightOf="@id/sa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="4.ME"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_toRightOf="@id/sa4"
+                        android:layout_below="@id/sa3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="(12:15-1:15)[KS]"
+                        android:textColor="#222"
+                        android:textSize="10sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:id="@+id/sa5"
+                        android:layout_below="@id/sa4"
+                        android:layout_toRightOf="@id/sa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="5.TIM LAB[A3]"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_toRightOf="@id/sa5"
+                        android:id="@+id/sa7"
+                        android:layout_below="@id/sa4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="(2:00-5:00)[KR,VB]"
+                        android:textColor="#222"
+                        android:textSize="10sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:id="@+id/sa6"
+                        android:layout_below="@id/sa7"
+                        android:layout_toRightOf="@id/sa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="  CSM LAB[A1]"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_toRightOf="@id/sa6"
+                        android:layout_below="@id/sa7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="(2:00-5:00)[MSS,TH]"
+                        android:textColor="#222"
+                        android:textSize="10sp"
+                        android:gravity="center" />
+
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

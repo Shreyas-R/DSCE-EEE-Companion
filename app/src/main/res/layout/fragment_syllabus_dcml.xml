@@ -1,0 +1,535 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sr.eeecompanion.fragment_syllabus_dcml">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:background="#ffdddddd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="@string/dcml_name"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="false"
+                        android:gravity="center" />
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/dcml"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/dcml1"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="EXP-1"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/dcml1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/dcml1"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/dcml2"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="EXP-2"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/dcml2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/dcml2"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/dcml3"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="EXP-3"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/dcml3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/dcml3"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/dcml4"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="EXP-4"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/dcml4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/dcml4"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/dcml5"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="EXP-5"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/dcml5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/dcml5"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/dcml6"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="EXP-6"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/dcml6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/dcml6"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/dcml7"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="EXP-7"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/dcml7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/dcml7"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/dcml8"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="EXP-8"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/dcml8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/dcml8"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/dcml9"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="EXP-9"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/dcml9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/dcml9"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/dcml10"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="EXP-10"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/dcml10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/dcml10"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/dcml11"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="EXP-11"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/dcml11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/dcml11"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/dcml12"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="EXP-12"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/dcml12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/dcml12"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/dcml13"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="EXP-13"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/dcml13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/dcml13"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/dcml14"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="EXP-14"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_below="@+id/dcml14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="20"
+                        android:padding="8dp"
+                        android:text="@string/dcml14"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

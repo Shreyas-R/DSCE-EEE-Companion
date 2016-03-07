@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:textStyle="bold"
+                android:textColor="#ffffffff"
+                android:id="@+id/text_changelog7"
+                android:text="@string/changelog7" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:id="@+id/text_changelog6"
+                android:layout_below="@+id/text_changelog7"
+                android:text="@string/changelog6" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:id="@+id/text_changelog5"
+                android:layout_below="@+id/text_changelog6"
+                android:text="@string/changelog5" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:id="@+id/text_changelog4"
+                android:layout_below="@+id/text_changelog5"
+                android:text="@string/changelog4" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:id="@+id/text_changelog3"
+                android:textStyle="bold"
+                android:textColor="#ffffffff"
+                android:layout_below="@+id/text_changelog4"
+                android:text="@string/changelog3" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:id="@+id/text_changelog2"
+                android:layout_below="@+id/text_changelog3"
+                android:text="@string/changelog2" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:id="@+id/text_changelog1"
+                android:layout_below="@+id/text_changelog2"
+                android:text="@string/changelog1" />
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>
