@@ -15,6 +15,7 @@ Changelog:
 V0.3.a (Ongoing)
 
 - Simplified UI
+- Initial Cloud Support
 
 V 0.2.a  (03-Dec-2015)
 
