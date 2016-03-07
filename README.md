@@ -4,11 +4,17 @@ EEE Companion App for EEE Dept,DSCE,Bangalore,India
 Intention:
 Integrating Department Activities to an Android App for the benefits of students.
 
+
+
+Current Activity: Fixing questionbank layout
+
+
+
 Changelog:
 
 V0.3.a (Ongoing)
 
--Simplified UI
+- Simplified UI
 
 V 0.2.a  (03-Dec-2015)
 
@@ -22,5 +28,3 @@ V 0.1.a  (20-Sept-2015)
 - Added V sem Syllabus,Time table
 
 
-
-Current Activity: Fixing questionbank layout
