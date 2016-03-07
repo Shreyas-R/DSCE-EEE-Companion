@@ -89,6 +89,7 @@ public class MainActivity extends AppCompatActivity {
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
 
         init();
+        new GcmRegistrationAsyncTask(this).execute();
 
         Snackbar.make(drawerLayout, "Welcome to EEE Companion App!", Snackbar.LENGTH_LONG).show();
 
@@ -143,6 +144,11 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onTouchEvent(RecyclerView recyclerView, MotionEvent motionEvent) {
+
+            }
+
+            @Override
+            public void onRequestDisallowInterceptTouchEvent(boolean b) {
 
             }
 

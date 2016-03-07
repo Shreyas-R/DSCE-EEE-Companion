@@ -34,6 +34,7 @@ import butterknife.InjectView;
  * Created by Shreyas R on 18-09-2015.
  */
 
+@SuppressWarnings("ALL")
 public class About extends AppCompatActivity {
     @InjectView(R.id.drawer_layout)
     DrawerLayout drawerLayout;
@@ -175,6 +176,11 @@ public class About extends AppCompatActivity {
 
             @Override
             public void onTouchEvent(RecyclerView recyclerView, MotionEvent motionEvent) {
+
+            }
+
+            @Override
+            public void onRequestDisallowInterceptTouchEvent(boolean b) {
 
             }
 

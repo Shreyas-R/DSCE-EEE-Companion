@@ -100,6 +100,11 @@ public class sem7 extends AppCompatActivity {
             public void onTouchEvent(RecyclerView recyclerView, MotionEvent motionEvent) {
 
             }
+
+            @Override
+            public void onRequestDisallowInterceptTouchEvent(boolean b) {
+
+            }
         });
 
 

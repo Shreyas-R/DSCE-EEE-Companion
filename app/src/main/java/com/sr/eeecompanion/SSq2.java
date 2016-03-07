@@ -112,6 +112,11 @@ public class SSq2 extends AppCompatActivity {
             public void onTouchEvent(RecyclerView recyclerView, MotionEvent motionEvent) {
 
             }
+
+            @Override
+            public void onRequestDisallowInterceptTouchEvent(boolean b) {
+
+            }
         });
 
 

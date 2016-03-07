@@ -96,6 +96,11 @@ public class tests_exams_sem5 extends AppCompatActivity {
             public void onTouchEvent(RecyclerView recyclerView, MotionEvent motionEvent) {
 
             }
+
+            @Override
+            public void onRequestDisallowInterceptTouchEvent(boolean b) {
+
+            }
         });
 
 
